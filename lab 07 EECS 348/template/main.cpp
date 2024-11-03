@@ -1,5 +1,5 @@
 #include <iostream>
-#include <fstream>  
+#include <fstream>
 using namespace std;
 
 const int SIZE = 4; // assigns the size of matrix 
@@ -113,7 +113,7 @@ int main() {
     // reads matrix 1 and matrix 2 from file 
     mat1.readFromFile(filename, mat2);
     
-    cout << "\n Matrix 1:" << endl << endl; 
+    cout << "\nMatrix 1:" << endl << endl; 
     mat1.display();
 
     cout << "\nMatrix 2:" << endl << endl;
